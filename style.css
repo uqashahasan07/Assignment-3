@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+.section-title {
+    background: #b5cde8;
+    padding: 8px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.image-box {
+    float: right;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* Table styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+th {
+    background: #e8eef5;
+    text-align: left;
+}
+
+/* Form styling */
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #999;
+}
+
+input[type="submit"] {
+    padding: 6px 15px;
+    border: 1px solid #555;
+    background: #ddd;
+    cursor: pointer;
+}
